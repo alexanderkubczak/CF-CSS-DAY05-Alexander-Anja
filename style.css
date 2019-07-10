@@ -2,12 +2,11 @@
 	margin: 0 auto;
 }
 
-
 header {
 	background: #83E2FF;
 	width: 100%;
 	height: 125px;
-	margin-bottom: 10px;
+	margin-bottom: 1%;
 }
 
 nav {
@@ -18,14 +17,13 @@ nav {
 
 main {
 	width: 100%;
-	height: 500px;
-	margin: 40px 0;
+	height: 480px;
+	margin: 3.5% 0;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
-
 
 #sec1, #sec3 {
 	background:  #83E2FF;
@@ -57,7 +55,6 @@ article {
 	height: 150px;
 }
 
-
 footer {
 	background: #83E2FF;
 	width: 100%;
@@ -66,6 +63,7 @@ footer {
 
 .top {
 	width: 100%;
+	height: 70%;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -76,5 +74,27 @@ footer {
 .bottom {
 	background: #83E2FF;
 	width: 100%;
-	height: 100px;
+	height: 20%;
+}
+
+/* Tablet screen */
+
+@media screen and (max-width: 768px) {
+	article {
+		width: 47%;
+	}
+	main {
+		height: 650px;
+	}
+}
+
+/* Computer screen */
+
+@media screen and (max-width: 480px) {
+	article {
+		width: 90%;
+	}
+	main {
+		height: 650px;
+	}
 }
