@@ -40,7 +40,7 @@ main {
 	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	align-content: space-between;
+	align-content: center;
 }
 
 #sec3 {
