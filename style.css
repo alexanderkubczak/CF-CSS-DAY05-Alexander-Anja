@@ -19,9 +19,33 @@ nav {
 main {
 	background: #83E2FF;
 	width: 100%;
-	height: 450px;
+	height: 550px;
 	margin: 40px 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
+
+
+section {
+	background:  green;
+	border: 5px solid black;
+	margin: 0;
+}
+
+#sec1 {
+	width: 20%;
+	}
+
+#sec2 {
+	width: 60%;
+}
+
+#sec3 {
+	width: 10%;
+}
+
 
 
 footer {
