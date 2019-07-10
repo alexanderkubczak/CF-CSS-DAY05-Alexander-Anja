@@ -1,0 +1,31 @@
+* {
+	margin: 0 auto;
+}
+
+
+header {
+	background: #83E2FF;
+	width: 100%;
+	height: 125px;
+	margin-bottom: 10px;
+}
+
+nav {
+	background: #83E2FF;
+	width: 100%;
+	height: 40px;
+}
+
+main {
+	background: #83E2FF;
+	width: 100%;
+	height: 450px;
+	margin: 40px 0;
+}
+
+
+footer {
+	background: #83E2FF;
+	width: 100%;
+	height: 100px;
+}
