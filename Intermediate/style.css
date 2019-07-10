@@ -82,6 +82,10 @@ footer {
 	article {
 		width: 47%;
 	}
+
+	header, aside, article, footer {
+		background-color: hotpink;
+	}
 }
 
 /* Computer screen */
