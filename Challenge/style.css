@@ -1,5 +1,6 @@
 * {
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 100%; }
 
 header {
   background: #2F292C;
@@ -7,6 +8,35 @@ header {
   height: 100px; }
 
 hero {
-  width: 100%; }
+  width: 100%;
+  height: 250px; }
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+
+.tiles {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row; }
+
+article {
+  background-color: green;
+  width: 22%;
+  height: 420px;
+  border: 5px solid black; }
+
+.fullw {
+  width: 95%;
+  display: flex;
+  flex-direction: column; }
+  .fullw .wide1 {
+    width: 100%;
+    border: 5px solid black;
+    height: 285px;
+    background-color: red; }
 
 /*# sourceMappingURL=style.css.map */
